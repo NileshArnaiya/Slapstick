@@ -1,0 +1,1819 @@
+<resources>
+
+    <string name="internet_error_msg">No Internet available! Please check internet</string>
+    <string name="error_init_failure_msg">Unable to play video</string>
+    <string name="load_playlist_msg">Loading playlist .. Please wait</string>
+    <string name="fetch_token_msg">Fetching Details</string>
+    <string name="token_error_msg">Unable to get details</string>
+    <string name="txt_enter_playlist_id">Enter playlist ID</string>
+
+    <string name="interstitial_full_screen">ca-app-pub-7459061532362827/4960193594</string>
+
+
+    <string name="app_name">SlapStick</string>
+
+
+    <array name="images_array">
+        <item>http://2.media.dorkly.cvcdn.com/32/96/875653c65af61dd095db599209c0fb38.jpg</item>
+        <item>http://hw-img.datpiff.com/m1c0082e/Bobby_J_Bobbys_World-front-large.jpg</item>
+        <item>
+            https://fanart.tv/fanart/tv/76168/tvthumb/batman-the-animated-series-50d7434e7441f.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BZWY4ODY3ZTAtODc2NC00ZDQ5LWE2ZTItZWYzOWVhNjU4OTk0XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BM2VlYjRhOTEtNmJlZi00YjAwLWE0NDAtYzgxNDgzNmVlYjk1XkEyXkFqcGdeQXVyMjU5OTg1NDU@._V1._SY209_CR63,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNzA2ZDk2ZTUtMWU2Yi00NDVmLTk1ODEtMmFmMjQyNWYzODI0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNTQ0OWE3NzUtOGZlZS00ZDhlLWFlMzktZGU2NmUxZWY1NmJhXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1._SY209_CR3,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMGM4N2FmMTktZmUyZi00OWNlLWExMzctNDcxNDI3ZTk2NGMxXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR6,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BYWZlZDk4OGMtY2M1NC00NGI2LTlhYzItZWQ3YTZjNGYzMjc2XkEyXkFqcGdeQXVyNjExODE1MDc@._V1._SY209_CR6,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNGRkMTllZTUtZTQyYi00NjVlLTlhZjEtODExNjQ4YjQ1Y2RjXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1._SY209_CR1,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNDgzOWJjOTMtZjY4ZS00MGRkLTk0YTMtM2E3ZGQyYmMyYzkzXkEyXkFqcGdeQXVyMTA1OTEwNjE@._V1._SY209_CR3,0,140,209_.jpg
+        </item>
+
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BY2IxMTFmOGUtNTg4ZS00NTU1LWJjNDktMDUxMjg2ZDQ5NjdiL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTU2Njc3MDA@._V1._SY209_CR1,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BODI0OTc1MTAxM15BMl5BanBnXkFtZTcwNjYxNzYxMQ@@._V1._SY209_CR6,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BOTVhNjY2MGItNDgyYy00Y2E5LWFlZmMtZTljY2Y1MzI0ZGI1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR3,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMDRlZTlmZmItNmVmMy00MmJiLThkNDQtZTlkMzgzNzBiMGI5XkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BYjY4ZjI3OGYtZGFlNC00ZmY0LWE3YjgtYTJjZDlhZmVlNjBiXkEyXkFqcGdeQXVyMTg2NzgzMDE@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BODdmZmFlMGUtZWE5NC00NmU5LTg3NzItOTNjNDc4ZTc2YzI1XkEyXkFqcGdeQXVyNjM1MTQ0NTQ@._V1._SY209_CR5,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTk1NDIyOTI5MV5BMl5BanBnXkFtZTgwNDc2NjkwMzE@._V1._SY209_CR69,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2NTQzNzI0MV5BMl5BanBnXkFtZTcwNTA5NzMwMg@@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMzdlMDMxNzItNmViNS00NDRkLTg3OWMtNjliZGIxY2M5N2YyXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1._SY209_CR2,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BZGVhMzBmMTUtZjRmNC00NjVkLTk1YmItMDg5NmNkNmY2MGFiXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR2,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1MzYwMjk0NV5BMl5BanBnXkFtZTgwMDQ4NDgwMzE@._V1._SY209_CR69,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTk1MTQ0MTAxMl5BMl5BanBnXkFtZTcwNzE2NzAzMQ@@._V1._CR1,17,359,435._SY209_CR16,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BOWEzNTA3MzUtYTkxNC00Njg5LWE3NGEtNzI3NmVlODlmNzExXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR7,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjE4Mjg1MTc2Nl5BMl5BanBnXkFtZTcwMTUxNjMwMg@@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTk5MjU2NjUxMF5BMl5BanBnXkFtZTcwMzY0OTAwMw@@._V1._SY209_CR13,0,140,209_.jpg
+        </item>
+
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNzk1MjkzNzIzM15BMl5BanBnXkFtZTcwOTczMzkyMQ@@._V1._SY209_CR30,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4ODAxNTQzMl5BMl5BanBnXkFtZTcwOTc1NTA1MQ@@._V1._SY209_CR3,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BODk0N2UwNGYtMWJiMy00Njk4LTg5NjctNzc1ODhlNDJkNTMxXkEyXkFqcGdeQXVyMzM4NjcxOTc@._V1._SY209_CR3,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNTM3OTAwODA4MV5BMl5BanBnXkFtZTcwOTMxNDE1MQ@@._V1._SY209_CR5,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTY0NzkwMTk0OF5BMl5BanBnXkFtZTcwMjYxMTI1MQ@@._V1._SY209_CR1,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BZTdhNmE3OGEtYjc0ZC00ZTM2LWJhYWQtZTliNGM5OWI2Yzc5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR8,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjA3NDI2MzE3OV5BMl5BanBnXkFtZTcwNjA4NjQyMQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BYzQyNjg5ODMtN2E4OS00NDViLTg0ZjAtNWQxYTRjOTBmNTRmXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY268_CR3,0,182,268_AL__QL50.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNjU1YjM2YzAtZWE2Ny00ZWNiLWFkZWItMDJhMzJiNDQwMmI4XkEyXkFqcGdeQXVyNTU1MjgyMjk@._V1_UY268_CR4,0,182,268_AL__QL50.jpg
+        </item>
+
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNjYyMDkxOTcyN15BMl5BanBnXkFtZTcwMzU1MDIzMQ@@._V1_UY268_CR4,0,182,268_AL__QL50.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMDE2N2YyMmItYWMxOS00MDk2LThjZmMtNTlhZjk3YTQ3MGE2XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY268_CR3,0,182,268_AL__QL50.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTY3ODI3MDEzMF5BMl5BanBnXkFtZTYwOTM2OTQ5._V1_UY268_CR9,0,182,268_AL__QL50.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BODI3NzY0NzU5NF5BMl5BanBnXkFtZTcwMTUyNzEzMQ@@._V1._CR11,12,363,480_UY268_CR10,0,182,268_AL__QL50.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjE1NDQwODgxMF5BMl5BanBnXkFtZTcwNzEzMjYyMQ@@._V1_UY268_CR6,0,182,268_AL__QL50.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzNzQzODA4OF5BMl5BanBnXkFtZTYwMDY5NjI5._V1_UX182_CR0,0,182,268_AL__QL50.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTkwNWY2YmEtZDBjOC00Y2U4LTkyODUtMmZhZGJkMWUxMDlhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY268_CR3,0,182,268_AL__QL50.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODk1NzYxOF5BMl5BanBnXkFtZTcwNzM1NDYyMQ@@._V1_QL50_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMDFkYjE4ZGYtZDkyNC00ZmFiLWJiMGYtNjlmZWVmYWEwNTZhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY268_CR4,0,182,268_AL__QL50.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BYjFkMTlkYWUtZWFhNy00M2FmLThiOTYtYTRiYjVlZWYxNmJkXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BZWQ2MDNiNTItYmM3ZS00MmI4LWFlMDQtOGVhYzlhZmZkNzI0L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTk4Mjk4Mjg2NV5BMl5BanBnXkFtZTcwMjQwNTkzNA@@._V1._SY209_CR8,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMWQyZTMzOTktYTQxYy00NzE0LWI4MWMtMTQ5NzJkYzFlMmYwXkEyXkFqcGdeQXVyNDQ0NjE1NzI@._V1._SY209_CR139,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BM2RjMjVjYzMtMjNiZS00ODIzLWIwMGUtYWE3YzkyYTA4ZTNjXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_UY268_CR0,0,182,268_AL__QL50.jpg
+        </item>
+
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTI0NjcwNTkxOV5BMl5BanBnXkFtZTcwNjU5NjMyMQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTI2NTc0MjQxOV5BMl5BanBnXkFtZTcwMDk1ODAzMQ@@._V1._CR38,0,310,446_UY268_CR2,0,182,268_AL__QL50.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTI5NTcwMDM2Ml5BMl5BanBnXkFtZTcwNDIyMzAzMQ@@._V1._SY209_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjM0NTI4MjcyM15BMl5BanBnXkFtZTgwNjI4NDM1NjE@._V1._CR33,1,305,431._SY209_CR4,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjExNTM4MzE0NF5BMl5BanBnXkFtZTcwNTkyNzcxMQ@@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BODM4NDI3OTcxN15BMl5BanBnXkFtZTgwNjc3MjIwMTI@._V1._SY209_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BZmQ5NGFiNWEtMmMyMC00MDdiLTg4YjktOGY5Yzc2MDUxMTE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1._SY209_CR1,0,140,209_.jpg
+        </item>
+
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzOTk1MzQwNl5BMl5BanBnXkFtZTcwODE1MDIzMQ@@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMWQxNWYwNzQtMzVjNy00YWFlLWI4NTEtMDJlYTFiYjM0MjkyXkEyXkFqcGdeQXVyNTk5OTgzMTY@._V1._SY209_CR3,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTM4NDQxMzk4OV5BMl5BanBnXkFtZTcwMzQyMDcyMQ@@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BM2M3YWRkN2MtZDg5OC00NmRmLTliNzctMTBkZjQzZTlkYmQ0XkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTg0NTc4NzA2MF5BMl5BanBnXkFtZTcwMDc0NTQyMQ@@._V1._CR19,2,308,430._SY209_CR5,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjAzNzg2Nzk1Ml5BMl5BanBnXkFtZTcwMTUyMzAzMQ@@._V1._SY209_CR21,0,140,209_.jpg
+        </item>
+
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTc5MzA4ODA2NV5BMl5BanBnXkFtZTcwOTI2MTEyMQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTk4NjIwMzI0OV5BMl5BanBnXkFtZTYwODIyMzI5._V1._CR1,0,264,423._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1NzQ3NTI0MF5BMl5BanBnXkFtZTcwMzcwOTUyMQ@@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BOTcyMzY2ZDItNjk3OS00NTFmLTgxNmQtMWFmYzkxMTE2YmEyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTU1OTc0MDA3OV5BMl5BanBnXkFtZTcwMzI4NTQzMQ@@._V1._CR0.883331298828125,1.5333404541015625,351,459._SY209_CR10,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNzIwNTU3NTA3OV5BMl5BanBnXkFtZTcwNzQ5NjEzMQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMGE0ODhhOTMtMmI5YS00YTJhLWE0YTQtYTZlMTA4NWYwNmQ1XkEyXkFqcGdeQXVyNTgwNzIwMjA@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTI5NDQyOTQ4OV5BMl5BanBnXkFtZTcwMTM1ODA1MQ@@._V1._SY209_CR6,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BY2E2OGE3MTQtYjViYS00ZTFhLTljNzgtYzYwYTJmNzY1MGQ3XkEyXkFqcGdeQXVyNjExODE1MDc@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTI0NDcyMTgzMl5BMl5BanBnXkFtZTYwNDc0Mjk4._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BODcwNzMxODcwMF5BMl5BanBnXkFtZTcwMzc1MTIyMQ@@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTkwOTAzODIyN15BMl5BanBnXkFtZTcwNTU5NjUyMQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMmZiNTQyODAtNzBmMC00MzY0LWIyODItM2M3ODg0NTQ2YzYzXkEyXkFqcGdeQXVyNjExODE1MDc@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTIwNzU5MjM0OV5BMl5BanBnXkFtZTcwODU4ODEzMQ@@._V1._SY209_CR3,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4NDkwNjA3NV5BMl5BanBnXkFtZTcwODYwNjQyMQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BZjg2N2ZlNzQtZWEzMS00MGVjLWE2ZGMtMzBkOTM0ODI1YmI2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR8,0,140,209_.jpg
+        </item>
+
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4NTg4NzkzMF5BMl5BanBnXkFtZTgwNjE4MzIxMjE@._V1._SY209_CR26,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNjgwMTYyNzkzMl5BMl5BanBnXkFtZTcwODg1NzcyMQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTg3NDY1MTk4NV5BMl5BanBnXkFtZTcwMzc5MTczMQ@@._V1._SY209_CR5,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BZTE2MDYxNWEtNjY1Ni00Zjk2LWJhYmUtMTg1MGVhMzU1Yjc1XkEyXkFqcGdeQXVyNDUxNjc5NjY@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNjQxZmYwMzctNzZhYS00ZTYzLWJlYjEtODRiNjQ4YjNkMGUyXkEyXkFqcGdeQXVyMjg0Mjg1MDM@._V1._SY209_CR1,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ3NzgzMTYyMF5BMl5BanBnXkFtZTgwNzYzMTAwMjE@._V1._SY209_CR87,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzODkyMTY2MF5BMl5BanBnXkFtZTcwODIwNjIyMQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjE1Mjc4MDQ1NF5BMl5BanBnXkFtZTcwMTc2MTIyMQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTM2MjYxNzA3Nl5BMl5BanBnXkFtZTcwMTAxMjEzMQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BN2FkNTE4NjQtMDAxMC00MDBlLWFlYzgtNmFhNThhYTNiMDk2XkEyXkFqcGdeQXVyMjc2NTc3NDA@._V1._SY209_CR34,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTY1NDQ1NzkzMV5BMl5BanBnXkFtZTcwMjA2MDM1MQ@@._V1._SY209_CR7,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzNjQ0NzkzOF5BMl5BanBnXkFtZTcwNDQ1MDkyMQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2MTc5MzgyNl5BMl5BanBnXkFtZTcwODc5MTAzMQ@@._V1._SY209_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjA1MjM4MTgxN15BMl5BanBnXkFtZTcwMzM1MTgxMQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyMTY5MDE0N15BMl5BanBnXkFtZTcwMDEwMDEzMQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwMTQ4NjM1NV5BMl5BanBnXkFtZTgwOTk4MzkwMzE@._V1._CR1,1,261,373._SY209_CR3,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1MTQ5Mzk5M15BMl5BanBnXkFtZTcwNzgwMjkyMQ@@._V1._SY209_CR5,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTA4ODQwNzEyNzdeQTJeQWpwZ15BbWU3MDMzOTQzMjE@._V1._SY209_CR3,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTg0NzQ0MDI4Ml5BMl5BanBnXkFtZTcwMDM5NzIyMQ@@._V1._SY209_CR3,0,140,209_.jpg
+        </item>
+
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ3NjA0MzA3MF5BMl5BanBnXkFtZTgwOTQzNTkwMzE@._V1._SY209_CR69,0,140,209_.jpg
+        </item>
+
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMmUzOWQ1ZDEtZjY0Ni00ZjI4LWI5MTItYmVhYjMyNzk3MmYyXkEyXkFqcGdeQXVyNjExODE1MDc@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2MzI5NjEyNF5BMl5BanBnXkFtZTcwMjQxNDE0MQ@@._V1._SY209_CR3,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1OTM0NDM1NV5BMl5BanBnXkFtZTgwOTUxOTU2NzE@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ0NzEyODU2OF5BMl5BanBnXkFtZTcwNzQyODQyMQ@@._V1_UY268_CR3,0,182,268_AL__QL50.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-PN27GuGM8cE/AAAAAAAAAAI/AAAAAAAAAAA/YeB2ETkt4gM/s900-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+    </array>
+
+
+    <array name="headline_array">
+        <item>Tiny toon Adventures</item>
+        <item>Bobby\'s world</item>
+        <item>Batman: The Animated series</item>
+        <item>South Park</item>
+        <item>Swat Kats: The Radical Squadron</item>
+        <item>Futurama</item>
+        <item>X-Men</item>
+        <item>Spider-Man</item>
+        <item>Courage the Cowardly Dog</item>
+        <item>Family Guy</item>
+        <item>Superman</item>
+        <item>SpongeBob SquarePants</item>
+        <item>King of the Hill</item>
+        <item>Rugrats</item>
+        <item>Beavis and Butt-Head</item>
+        <item>Hey Arnold!</item>
+        <item>The Powerpuff Girls</item>
+        <item>Animaniacs</item>
+        <item>Doug</item>
+        <item>Dexter\'s Laboratory</item>
+        <item>Daria</item>
+        <item>Ed, Edd, \'n\' Eddy</item>
+        <item>The Ren &amp; Stimpy Show</item>
+        <item>Pinky and the Brain</item>
+        <item>Rocko\'s Modern Life</item>
+        <item>Johnny Bravo</item>
+        <item>Rocket Power</item>
+        <item>Darkwing Duck</item>
+        <item>The Angry Beavers</item>
+        <item>Talespin</item>
+        <item>Dr. Katz, Professional Therapist</item>
+        <item>
+            Space Ghost Coast to Coast
+        </item>
+        <item>The Critic</item>
+        <item>Crayon Shin chan</item>
+        <item>Pokémon</item>
+        <item>Chip \'n\' Dale Rescue Rangers</item>
+        <item>Mr. Bean</item>
+        <item>Tom and Jerry</item>
+        <item>The Pink Panther Show</item>
+        <item>Garfield and Friends</item>
+        <item>The Flintstones</item>
+        <item>Teenage Mutant Ninja Turtles</item>
+        <item>Recess</item>
+        <item>Cow and Chicken</item>
+        <item>The Simpsons</item>
+        <item>Samurai Jack</item>
+        <item>The Fresh Prince of Bel-Air
+        </item>
+        <item>Mr. Dressup</item>
+        <item>
+            Dragon Ball Z
+        </item>
+        <item>
+            Bill Nye, the Science Guy
+        </item>
+        <item>The Muppet Show</item>
+        <item>
+            Wishbone
+        </item>
+        <item>
+            Are You Afraid of the Dark?
+        </item>
+        <item>
+            Mobile Suit Gundam Wing
+        </item>
+        <item>
+            Sesame Street
+        </item>
+        <item>Naruto</item>
+        <item>DuckTales</item>
+        <item>Toad Patrol</item>
+        <item>Pee-wee\'s House</item>
+        <item>
+            Tales from the Crypt
+        </item>
+        <item>
+            The Transformers
+        </item>
+        <item>
+            The Magic School Bus
+        </item>
+        <item>
+            The Bugs Bunny and Tweety Show
+        </item>
+        <item>
+            Cardcaptor Sakura
+        </item>
+
+        <item>ReBoot</item>
+        <item>Thundercats</item>
+        <item>The Tick</item>
+        <item>
+            Wimzie\'s House
+        </item>
+        <item>
+            Stickin\' Around
+        </item>
+        <item>
+            Goosebumps
+        </item>
+        <item>
+            Sing Me a Story with Belle
+        </item>
+        <item>
+            Sailor Moon
+        </item>
+        <item>
+            Street Fighter II: V
+        </item>
+        <item>
+            Zoboomafoo
+        </item>
+        <item>The Little Lulu Show</item>
+        <item>
+            The Real Ghostbusters
+        </item>
+        <item>Out of The Box</item>
+        <item>Freakazoid!</item>
+        <item>The Busy World of Richard Scarry</item>
+        <item>
+            The New Adventures of Winnie the Pooh
+        </item>
+        <item>
+            Adventures of the Gummi Bears
+        </item>
+        <item>
+            The Adventures of Dudley the Dragon
+        </item>
+        <item>Smart Guy</item>
+        <item>
+            All That
+        </item>
+        <item>
+            Art Attack
+        </item>
+        <item>Gullah, GUllah Island</item>
+        <item>
+            Bob and Margaret
+        </item>
+        <item>Pepper Ann</item>
+        <item>Pingu</item>
+        <item>BeetleJuice</item>
+        <item>ALF</item>
+        <item>Where\'s Waldo</item>
+        <item>Taz-Mania</item>
+        <item>The Smurfs</item>
+        <item>
+            Clarissa Explains It All
+        </item>
+        <item>
+            Digimon: Digital Monsters
+        </item>
+        <item>
+            Monster Rancher
+        </item>
+
+        <item>Aladdin</item>
+        <item>Popeye the Sailor</item>
+        <item>
+            Alvin &amp; the Chipmunks
+        </item>
+        <item>Bob The Builder</item>
+        <item>Noddy</item>
+        <item>Oswald</item>
+
+    </array>
+    <array name="descript_array">
+        <item>The adventures of a new generation of Warner Bros. Looney Tunes characters.</item>
+        <item>A boy named Bobby Generic creates adventures using his overactive imagination</item>
+        <item>The Dark Knight battles crime in Gotham City with occasional help from Robin and
+            Batgirl.
+        </item>
+        <item>Follows the misadventures of four irreverent grade-schoolers in the quiet,
+            dysfunctional town of South Park, Colorado.
+        </item>
+        <item>Two demoted fighter pilots battle evil as high flying masked vigilantes.</item>
+        <item>Fry, a pizza guy, is accidentally frozen in 1999 and thawed out New Year\'s Eve
+            2999.
+        </item>
+        <item>A team of mutant superheroes fight for justice and human acceptance in the Marvel
+            Comics universe.
+        </item>
+        <item>A young man with spider-like abilities fights crime as a superhero in New York City
+            while trying to have a normal personal life.
+        </item>
+        <item>The offbeat adventures of Courage, a cowardly dog who must overcome his own fears to
+            heroically defend his unknowing farmer owners from all kinds of dangers, paranormal
+            events and menaces that appear around their land.
+        </item>
+        <item>In a wacky Rhode Island town, a dysfunctional family strive to cope with everyday life
+            as they are thrown from one crazy scenario to another.
+        </item>
+        <item>The last son of the planet Krypton protects his adoptive home of Earth as the greatest
+            of the superheroes
+        </item>
+        <item>The misadventures of a talking sea sponge who works at a fast food restaurant under
+            the sea.
+        </item>
+        <item>A straight laced propane salesman in Arlen, Texas tries to deal with the wacky antics
+            of his family and friends, while also trying to keep his son in line.
+        </item>
+        <item>The cartoon misadventures of four babies and their snotty older cousin as they face
+            the things in life they don\'t understand.
+        </item>
+
+        <item>Animated MTV series about two teenage heavy-metal music fans who occasionally do
+            idiotic things because they\'re bored. For them, everything is "cool" or "sucks."
+        </item>
+        <item>The everyday life of Arnold, a 4th-grader in a nameless city that resembles Brooklyn,
+            New York, who lives in a multi-racial boarding house with his grandparents and a motley
+            assortment of neighbors and friends.
+        </item>
+        <item>Three super-powered little girls constantly save the world (or at least the city of
+            Townsville) from monsters, would-be conquerers and a few other gross things.
+        </item>
+        <item>Ensemble cast of off-the-wall Warner Brothers characters, appearing in a wide variety
+            of roles.
+        </item>
+        <item>The life of a young boy as he meets friends, falls in love, maneuvers his way through
+            grade 6 and writes all about it in his journal.
+        </item>
+        <item>The misadventures of a boy genius and his annoying sister.</item>
+        <item>A smart and cynical girl goes through teenage life as a proud outsider in a world of
+            mainly idiotic adolescents and condescending adults.
+        </item>
+        <item>The off-the-wall, day-to-day life of three friends who have exactly the same name.
+        </item>
+        <item>The gross misadventures of a hyper chihuahua and a stupid cat.</item>
+        <item>A genius mouse and his stupid sidekick try to conquer the world each night.</item>
+        <item>The wacky misadventures of an Australian wallaby and his friends as he finishes his
+            transition to American life.
+        </item>
+        <item>The misadventures of a dumb blond egomanaic who is deluded about his own manliness.
+        </item>
+        <item>Four friends and their daily lives of playing extreme sports, surfing, and getting
+            into some crazy situations.
+        </item>
+        <item>A bumbling superhero battles crime with the help of his daughter and pilot sidekick.
+        </item>
+        <item>The wacky and sometimes surreal adventures of Norbert and Daggett Beaver.</item>
+        <item>Baloo the Bear from the Jungle Book is cast as a 1930\'s Pacific Islands bush pilot.
+        </item>
+        <item>A divorced father, he has custody of his 23-year-old slacker son Ben, who dreams of
+            wealth and freedom but is too lazy to find a real job
+        </item>
+        <item>Space Ghost in his 40s is no longer a superhero, and now he even goes by his real name
+            Tad Ghostal.
+        </item>
+        <item>Jay Sherman is a New York film critic who has to review films he doesn\'t like for a
+            living.
+        </item>
+
+        <item>About a 6 years old kid name Shin-chan who is always create havoc with people around
+            him. He also have a taste with older woman.
+        </item>
+        <item>The adventures of Ash Ketchum and his partner Pikachu, who travel across many regions
+            in hopes of being regarded as a Pokemon master.
+        </item>
+        <item>
+            Disney\'s fun-loving chipmunks are reimagined as the leaders of a team of
+            detectives/crime-fighters, rounding out the team are two mice, Gadget Hackwrench and
+            Monterey Jack and Zipper, a fly.
+        </item>
+        <item>Life is a difficult challenge for Mr Bean, who despite being a grown adult, has
+            trouble completing even the simplest of tasks. Thankfully, his perseverance is usually
+            rewarded, and he finds an ingenious way around the problem.
+        </item>
+        <item>The Hanna-Barbera-created Oscar-winning cat-and-mouse team of Tom &amp; Jerry returned
+            to TV in an hour-long stretch of new adventures.
+        </item>
+        <item>The Pink Panther is a heroic, moral cartoon cat with pink fur and the manners of an
+            English aristocrat. He only becomes flustered or angry at obtuse or offensive humans
+        </item>
+        <item>Stories about Garfield the cat, Odie the dog, their owner Jon and the trouble they get
+            into, and Orson the Pig and his adventures on a farm with fellow farm animals.
+        </item>
+        <item>The misadventures of two modern-day Stone Age families, the Flintstones and the
+            Rubbles.
+        </item>
+        <item>The adventures of a quartet of humanoid warrior turtles and their friends.</item>
+        <item>Comic tales of a group of good friends, 4 boys and 2 girls, during breaks in primary
+            school, as they grow up, relate to each other, and have brushes with authority.
+        </item>
+        <item>The program focuses on the misadventures of two unlikely yet somehow biological
+            siblings: Cow and Chicken.
+        </item>
+        <item>The satiric adventures of a working-class family in the misfit city of Springfield.
+        </item>
+        <item>A samurai sent through time fights to return home and save the world.</item>
+        <item>The Banks family, a respectable Californian family, take in a relative - Will Smith, a
+            street-smart teenager from Philadelphia. The idea is to make him respectable,
+            responsible and mature, but Will has got other plans
+        </item>
+        <item>An amiable man teaches preschool subjects with his puppet friends with games, songs
+            and the infinite number of costumes inside his tickle trunk.
+        </item>
+        <item>After learning that he is from another planet, a warrior named Goku and his friends
+            are prompted to defend it from an onslaught of extraterrestrial enemies.
+        </item>
+        <item>Scientist/comedian Bill Nye explores various aspects of science for young viewers.
+        </item>
+        <item>Kermit the Frog and his friends struggle to put on a weekly variety show.</item>
+        <item>An intelligent and witty dog imagines himself in the role of characters from classic
+            books and gets involved in similar real-life adventures.
+        </item>
+        <item>A group of kids get together in the woods, and tell ghost stories.</item>
+        <item>A squadron of giant robot pilots of a beleaguered Earth colony bring the war to their
+            oppressive home planet.
+        </item>
+        <item>On a special inner city street, the inhabitants, both human and puppet, teach
+            preschool subjects with comedy, cartoons, games and songs.
+        </item>
+        <item>Follows the struggles of three young ninjas - Naruto Uzumaki, Sasuke Uchiha and Sakura
+            Haruno - as they go through their training.
+        </item>
+        <item>The globe-trotting treasure-hunting money-making adventures of billionaire Scrooge
+            McDuck and his nephews.
+        </item>
+        <item>A group of toadlets (young toads) find themselves trapped in a forest after missing
+            the migration to Toad Hollow
+        </item>
+        <item>Pee-Wee Herman and his friends have wacky, imaginative fun in his unique playhouse.
+        </item>
+        <item>Tales of horror based on the gruesome E.C. comic books of the 1950s.</item>
+        <item>Two opposing factions of transforming alien robots engage in a battle that has the
+            fate of Earth in the balance.
+        </item>
+        <item>An eccentric school-teacher takes her class on wondrous educational field trips with
+            the help of a magical school bus.
+        </item>
+        <item>Bugs Bunny, Tweety Bird, and all their cartoon friends, with the exception of Speedy
+            Gonzales, are featured
+        </item>
+        <item>Sakura stumbled upon the book of Clow Cards in a library. Accidentally setting the
+            magical cards loose, it\'s now up to Sakura to catch them all with her best friend
+            Tomoyo, and Kerberos, the guardian of the cards.
+        </item>
+        <item>In the inner computer world of Mainframe, a guardian program sprite and his friends
+            defend the system from threats from viruses and the User.
+        </item>
+        <item>A team of humanoid cats fight evil in their adopted home world.</item>
+        <item>An invulnerable, somewhat dim, superhero protects The City from all manner of
+            evil-doers.
+        </item>
+        <item>A five year old dragon bird hybrid spends time with her friends at her grandmother\'s
+            daycare learning new things each day.
+        </item>
+        <item>Stacy Stickler and her best friend Bradley use their vivid imaginations to help them
+            get through the humdrum of elementary school life.
+        </item>
+        <item>A series of horror anthology stories based on the children\'s books by R.L. Stine.
+        </item>
+        <item>Belle, a character from the 1991 film, "Beauty and the Beast," and friends sing tell
+            stories while singing songs.
+        </item>
+        <item>The magical action-adventures of a teenage girl who learns of her destiny as the
+            legendary warrior Sailor Moon and must band together with the other Sailor Soldiers to
+            defend the Earth and Galaxy.
+        </item>
+        <item>Based off of the video game, on an island off the coast of Japan, Ryu, a martial
+            artist
+        </item>
+        <item>Chris and Martin Kratt bring their enthusiasm for animals to the pre-school set.
+        </item>
+        <item>Little Lulu is the first-ever animated stand-up comic. Her best friend Annie is always
+            there for her
+        </item>
+        <item>The continuing adventures of the staff of the ghost removal service.</item>
+        <item>A group of kids and their two caregivers have built a cool clubhouse out of giant
+            boxes. That\'s where they meet for music, play and special activities that kids can do
+            at home.
+        </item>
+        <item>Washington, D.C. has a new defender: Freakazoid. The comedy (and sanity) never stops
+            when he\'s around and he\'s only one of the weird heroes of the series! It\'s better
+            than a nice tub of good things!
+        </item>
+        <item>An entertaining and educational show for children about cartoon animals living in a
+            small town, and the friendship between a cat and an earthworm.
+        </item>
+        <item>Follow Winnie the Pooh\'s adventures in the hundred acre wood.</item>
+        <item>A group of reclusive humanoid bears and a few trusted humans explore their lost
+            heritage and prevent their enemies from exploiting it.
+        </item>
+        <item>The story focuses on Dudley, a dragon who recently woke up from centuries of
+            hibernation
+        </item>
+        <item>Ten-year-old genius (Tahj Mowry) has skipped six grades into high school. This
+            incredible promotion somewhat aggravates his teenage siblings
+        </item>
+        <item>A combination sketch comedy/musical performance show in the tradition of "Saturday
+            Night Live".
+        </item>
+        <item>An educational series presenting various art project suggestions and creations.</item>
+        <item>The series follow an African-American family on Gullah Gullah Island learning about
+            life along with their friends, neighbors and their pet pollywog named Binya Binya.
+        </item>
+        <item>Based on the animated short _Bob\'s Birthday (1993)_, this series follows the daily
+            adventures of a London dentist and his chiropodist wife.
+        </item>
+        <item>Comedy about awkward teenager Pepper Ann, who only really has 2 friends, and manages
+            to put other kids off by her slightly-nerdy behaviour
+        </item>
+        <item>Pingu is a clay penguin who is very mischievous and playful. He lives in the Antarctic
+            where he plays with his family and his friend the seal. His signature sound is something
+            like "noot noot".
+        </item>
+        <item>Adventures of the ghostly con-artist and his 12-year-old pal, Lydia.</item>
+        <item>A furry alien wiseguy comes to live with a terran family after crashing into their
+            garage.
+        </item>
+        <item>The animated adventures of Waldo and his friends from the Where\'s Waldo book
+            series.
+        </item>
+        <item>Taz\'s Uncle Drew comes to visit. He and Hugh take Taz along on a trip to pick up some
+            orange juice. However, only Taz seems to notice the spies that apparently want the OJ
+            they bought.
+        </item>
+        <item>The Smurfs are little blue creatures that live in mushroom houses in a forest
+            inhabited mainly by their own kind. The smurfs average daily routine is attempting to
+            avoid Gargomel, an evil man who wants to kill our little blue friends.
+        </item>
+        <item>As events unfold in her life, Clarissa explains to the viewer the motivations behind
+            people\'s actions.
+        </item>
+        <item>A group of young teens is unexpectedly sent to the mysterious Digital World and paired
+            up with their own powerful, morphing monster called the Digimon.
+        </item>
+        <item>Genki is a young teen boy who gets zapped into an alternate world called Monster
+            Rancher
+        </item>
+        <item>Aladdin, the clever hero of Agrabah, continues his adventures with the help of his
+            fiancee Princess Jasmine, his pet monkey Abu, Magic Carpet, Iago the greedy parrot, and
+            of course his best friend the semi-cosmic Genie.
+        </item>
+        <item>The continuing animated adventures of Olive Oyl, Wimpy, Swee\'pea and Popeye.</item>
+        <item>Three chipmunk brothers, Alvin, Simon, and Theodore. The trio have been adopted by and
+            are living with Dave (human). Each show finds the boys getting into trouble and new and
+            unusual situations.
+        </item>
+        <item>Bob the Builder is the animated adventures of Bob and his machines. Working together
+            to overcome various challenges they get the job done.
+        </item>
+        <item>A young boy named Noddy makes new friends and goes on lots of adventures.</item>
+        <item>A story of a blue octopus and his dog that looks like a hotdog, named Weenie, and
+            their friends like Daisy the daisy, and Henry the penguin. They go on adventures
+        </item>
+    </array>
+
+
+    <array name="youtube_channel_title">
+        <item>AIB</item>
+        <item>THE VIRAL FEVER</item>
+        <item>East India Comedy</item>
+        <item>Shudh Desi Endings</item>
+        <item>SNG Comedy</item>
+        <item>The Timeliners</item>
+        <item>Girliyapa</item>
+        <item>Funk You</item>
+        <item>Baap of Bakchod</item>
+        <item>Aditi Mittal</item>
+        <item>Abish Mathew</item>
+        <item>Kenny Sebastian</item>
+        <item>CarryMinati</item>
+        <item>Daniel Fernandes</item>
+        <item>Be YouNick</item>
+        <item>Screen Patti</item>
+        <item>RealSHIT</item>
+        <item>Happii-Fi</item>
+        <item>AVRprankTV</item>
+        <item>TroubleSeekerTeam</item>
+        <item>Zakir Khan</item>
+        <item>Funny Or Die</item>
+        <item>The Key Of Awesome</item>
+        <item>Kanan Gill</item>
+        <item>Round2Hell</item>
+    </array>
+    <array name="youtube_channel_description">
+        <item>
+            We make sketches, podcasts, web shows and other things for the internets validation.
+        </item>
+        <item>
+            TV is Dead, Our Stories Are Not.
+            Watch India\'s most loved original shows and videos
+        </item>
+        <item>East India Comedy is a group of Indian stand-up comedians that performs comedy shows,
+            organizes comedy workshops, corporate events and scripts movie and television shows.
+        </item>
+        <item>An Indian YouTube channel which creates animated videos and movie spoofs.</item>
+        <item>SnG Comedy are a group of professional stand up, improv and sketch comedians from
+            Mumbai, India.
+        </item>
+        <item>Today, life happens on timelines. And the stories on our timelines… sometimes, they
+            change our lives.We, at The Timeliners, are here to share with you many such stories.Hop
+            on!
+        </item>
+        <item>Girliyapa is a Women Centric channel that celebrates relatable, Real, funny &amp;
+            interesting stories about Women, which have never been told. Because everything about
+            girls is Not From Venus.
+        </item>
+        <item>
+            A Group of Young Entertainers who just enjoy entertaining
+        </item>
+        <item>Fun, Masti &amp; Entertainment - Indian Style</item>
+        <item>Aditi Mittal is a stand-up comedian, actress, writer and 477th in line for the
+            prestigious Mittal fortune
+        </item>
+        <item>Abish Mathew is an Indian Stand Up comedian, actor and musician.
+            Known for his work with All India Bakchod
+        </item>
+        <item>I am a stage performer and reclusive creator of digital content. Stand Up Comedian,
+            Musician and Filmmaker.
+        </item>
+        <item>I AM A PERSON WHO INSULTS PEOPLE FOR YOUTUBE MONEY YES I AM RICH I HAVE 2 FORTUNERS
+            .
+        </item>
+        <item>The very cool stand-up comedian Daniel Fernandes</item>
+
+        <item>Slap the guy who told you are just the next guy in the room . Come and have some
+            laughter with us in our YouNick take on day to day life :)
+        </item>
+        <item>Screen Patti is a New Age Comedy Channel for the Millennials of India who swipe right
+            on Tinder, Use Filters on Snapchat &amp; Instagram and are always looking for the
+            Stories which will make them laugh next
+        </item>
+        <item>We just try to make people laugh, spread happiness and entertain as many people as we
+            can.
+        </item>
+        <item>One Stop Entertainment Destination! SABGroup presents India\'s largest Digital Comedy
+            brand.
+        </item>
+        <item>We do all pranks and social experiment which people think can\'t possible in india..if
+            you have any idea and know any prank which you think its not possible in india tell us
+            we will do
+        </item>
+        <item>Some Random Dudes Trying to Make You Laugh
+            We make Hidden Camera Pranks , practical jokes , etc :D , ALL IN INDIA
+        </item>
+        <item>Zakir shares his comic perspective on daily life struggles which leaves the audience
+            wondering if they are laughing at him or themselves.
+        </item>
+
+        <item>Funny or Die features your favorite comedians and celebrities in comedy videos.
+            Founded in 2007 by Will Ferrell, Adam McKay, and Judd Apatow, Funny Or Die churns out
+            hilarious videos to make you laugh.
+        </item>
+        <item>Welcome to The Key of Awesome!
+            Comedy music videos, song parodies and comedy music sketches!
+        </item>
+        <item>My name is Kanan Gill. These are silly things I make.</item>
+        <item>Youtubers Who Define The Real Meaning of Laugh.</item>
+    </array>
+    <array name="youtube_channel_img">
+
+        <item>
+            https://upload.wikimedia.org/wikipedia/en/1/1d/All_India_Bakchod.jpg
+
+        </item>
+        <item>https://upload.wikimedia.org/wikipedia/en/b/b1/THE_VIRAL_FEVER_OFFICIAL_LOGO.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-ck2LMbPX_fE/AAAAAAAAAAI/AAAAAAAAAAA/Au_D5F4yLcU/s900-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+
+        <item>
+            https://yt3.ggpht.com/-Fna8TFj6sBM/AAAAAAAAAAI/AAAAAAAAAAA/daeLNprMY5s/s900-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+
+        <item>
+            https://yt3.ggpht.com/-GlVR4xnVsRk/AAAAAAAAAAI/AAAAAAAAAAA/MH1vEneEAHg/s900-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-2lD_57lyIpo/AAAAAAAAAAI/AAAAAAAAAAA/ECEBFqF9QIc/s900-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/--QWIyMMLzyE/AAAAAAAAAAI/AAAAAAAAAAA/KKcmGlgVNiE/s900-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-O2OdxVPzQAY/AAAAAAAAAAI/AAAAAAAAAAA/eyXsW0IcPpU/s900-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-dwAuFjlU9xU/AAAAAAAAAAI/AAAAAAAAAAA/DwFgYNmDwmo/s900-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-B2S4Q_93Q6o/AAAAAAAAAAI/AAAAAAAAAAA/8TyhxIQn8Po/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-SSpmSUUgNcU/AAAAAAAAAAI/AAAAAAAAAAA/7JajM88DkSE/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-sh_ncbmoSyo/AAAAAAAAAAI/AAAAAAAAAAA/1XAis4KrJ9c/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-MczKppo_8TQ/AAAAAAAAAAI/AAAAAAAAAAA/MLb_qfmgpsE/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-Vk7UybXq3OI/AAAAAAAAAAI/AAAAAAAAAAA/HtPwQHIpxBA/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-FKiOU183-Xo/AAAAAAAAAAI/AAAAAAAAAAA/ghHSWc5HL-E/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-m_As9-vl8us/AAAAAAAAAAI/AAAAAAAAAAA/TECwXcM4wBs/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-5U22oB8fXbw/AAAAAAAAAAI/AAAAAAAAAAA/_6RX5y1UbjM/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-WqNSKSI-mzU/AAAAAAAAAAI/AAAAAAAAAAA/UBFzQEzoRy4/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-PBKa9VrkDWM/AAAAAAAAAAI/AAAAAAAAAAA/uvSNIpuj1Mo/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-MtVPskQTqa4/AAAAAAAAAAI/AAAAAAAAAAA/_DrDfhQWNnQ/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-ZvRGq5SItxY/AAAAAAAAAAI/AAAAAAAAAAA/HgyRNfnnDm8/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-hBhdcAb62Uo/AAAAAAAAAAI/AAAAAAAAAAA/NUpkCfVpTIU/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-vrr1aE4eEz0/AAAAAAAAAAI/AAAAAAAAAAA/Q2xdZJdu6Co/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-MywEBopJg6g/AAAAAAAAAAI/AAAAAAAAAAA/5ex3mrV7jjw/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-t-cI1jE3cmw/AAAAAAAAAAI/AAAAAAAAAAA/WvcMw6wESuM/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+
+
+    </array>
+
+
+    <array name="twenty_zero_title">
+        <item>Fruits Basket</item>
+        <item>Inuyasha</item>
+        <item>Naruto</item>
+        <item>Gargoyles</item>
+        <item>Wolf\'s Rain</item>
+        <item>As Told by Ginger</item>
+        <item>Robot Chicken</item>
+        <item>Avatar: The Last Airbender</item>
+        <item>Witch Hunter Robin</item>
+        <item>X-Men: Evolution</item>
+        <item>Static Shock</item>
+        <item>Invader ZIM</item>
+        <item>Samurai Jack</item>
+        <item>Jackie Chan Adventures</item>
+        <item>Duck Dodgers</item>
+        <item>Aqua Teen Hunger Force</item>
+        <item>Harvey Birdman, Attorney at Law</item>
+        <item>Sheep in the Big City</item>
+        <item>X-Men: Evolution</item>
+        <item>House of Mouse</item>
+        <item>The Fairly OddParents</item>
+        <item>The Grim Adventures of Billy &amp; Mandy</item>
+        <item>Justice League</item>
+        <item>Time Squad</item>
+        <item>ChalkZone</item>
+        <item>The Adventures of Jimmy Neutron: Boy Genius</item>
+        <item>Codename: Kids Next Door</item>
+        <item>What\'s New, Scooby-Doo?</item>
+        <item>Code Lyoko</item>
+        <item>Duck Dodgers</item>
+        <item>Star Wars: Clone Wars</item>
+        <item>Teen Titans</item>
+        <item>The Venture Bros.</item>
+        <item>Danny Phantom</item>
+        <item>Drawn Together</item>
+        <item>Foster\'s Home for Imaginary Friends</item>
+        <item>Megas XLR</item>
+        <item>American Dad!</item>
+        <item>Avatar: The Last Airbender</item>
+        <item>The Boondocks</item>
+        <item>Robot Chicken</item>
+        <item>Tom and Jerry Tales</item>
+        <item>Class of 3000</item>
+        <item>Frisky Dingo</item>
+        <item>Metalocalypse</item>
+        <item>Chowder</item>
+        <item>Batman: The Brave and the Bold</item>
+        <item>Ben 10: Alien Force</item>
+        <item>Phineas and Ferb</item>
+        <item>Star Wars: The Clone Wars</item>
+        <item>Wolverine and the X-Men</item>
+        <item>Archer</item>
+    </array>
+    <array name="twenty_zero_desc">
+        <item>After her mother\'s death, Tohru Honda finds herself living with the Sohma family
+            consisting of three cousins.
+        </item>
+        <item>A teenage girl periodically travels back in time to feudal Japan to help a young half
+            demon recover the shards of a jewel of great power.
+        </item>
+        <item>Follows the struggles of three young ninjas - Naruto Uzumaki, Sasuke Uchiha and Sakura
+            Haruno - as they go through their training.
+        </item>
+        <item>A clan of heroic night creatures pledge to protect modern New York City as they did in
+            Scotland long ago
+        </item>
+        <item>In a post-apocalyptic future where humans live in domed cities surrounded by
+            wasteland, wolves are assumed to be two hundred years extinct.
+        </item>
+        <item>The TV cartoon follows a preteen girl named Ginger Foutley, along with two friends, as
+            they try to fit in social life as well in school and try to avoid any embarrassments.
+        </item>
+        <item>From creators Seth Green and Matthew Senreich, \'Robot Chicken\' is stop-motion
+            animation with a demented twist.
+        </item>
+        <item>In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous
+            mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.
+        </item>
+        <item>Witches exist, and it is the mysterious organization STNJ\'s job to hunt them down.
+        </item>
+        <item>This rendition of X-Men features Cyclops, Jean Grey, Rogue, Nightcrawler, Shadowcat,
+            and Spike as teenagers as they fight for a world that fears and hates them.
+        </item>
+        <item>In the city of Dakota, a teenage boy with electricity based powers, with the help of
+            his inventive friend, fights crime as a superhero.
+        </item>
+
+        <item>An alien from the planet Irk is sent to Earth, not realising that his leaders were
+            fooling him and didn\'t think a planet was there. He manages to fit in with school
+            children but one boy sees through his disguise.
+        </item>
+        <item>A samurai sent through time fights to return home and save the world.</item>
+        <item>Jackie Chan and his extended family must fight a criminal organization for magic
+            talismans that could release an evil spirit.
+        </item>
+        <item>Animated sci-fi series based on the alter ego of Looney Tunes star Daffy Duck, the
+            semi-heroic, yet incompetent space captain Duck Dodgers.
+        </item>
+        <item>The misadventures of a milkshake, an order of fries, a meatball, and their retired
+            next door neighbor in the suburbs of New Jersey.
+        </item>
+        <item>Third-rate superhero Harvey Birdman gets a new lease on life when he becomes a
+            lawyer
+        </item>
+        <item>A military base builds a ray gun to take over and/or destory the world.</item>
+        <item>This rendition of X-Men features Cyclops, Jean Grey, Rogue, Nightcrawler, Shadowcat,
+            and Spike as teenagers as they fight for a world that fears and hates them.
+        </item>
+        <item>Collections of short cartoons hosted by Mickey and his Disney pals at his club, The
+            House of Mouse.
+        </item>
+        <item>After being tortured and humiliated by his babysitter, a ten year old boy is put under
+            the care of two fairy godparents, who can grant him almost any wish, which leads to dire
+            consequences.
+        </item>
+        <item>A show featuring the exploits of the Grim Reaper, forced into being the best friend of
+            two children.
+        </item>
+        <item>Seven of the most formidable heroes form arguably the most powerful team ever.</item>
+        <item>The adventures of the Time Squad, a team of dysfunctional characters who travel
+            through time to rectify any deviations in history.
+        </item>
+        <item>Rudy Tabootie\'s a regular kid with a very special possession</item>
+        <item>A young boy, who happens to be a genius, lives in a small town with his family and
+            friends and often gets into crazy adventures with them involving the things he invents.
+        </item>
+        <item>The adventures of a group of ten-year-old friends who fight for the right to do
+            everything that adults restrict from them.
+        </item>
+        <item>Scooby-Doo and the Mystery, Inc. gang are launched into the 21st century, with new
+            mysteries to solve.
+        </item>
+        <item>When a group of four boarding school students discover a supercomputer housed inside
+            an abandoned factory, they find a virtual world called Lyoko and awaken a sentient
+            multi-agent system virus that tries to take over the real world.
+        </item>
+        <item>Animated sci-fi series based on the alter ego of Looney Tunes star Daffy Duck, the
+            semi-heroic, yet incompetent space captain Duck Dodgers.
+        </item>
+        <item>The events and battles of the Old Republic\'s last major war are recounted.</item>
+        <item>A team of five teenaged superheroes save the world from many villains
+            around their city while experiencing things normal teens face today.
+        </item>
+        <item>The bizarre animated escapades of pseudo-heroic scientist Dr. Rusty Venture, his
+            competent, high strung bodyguard, and his two over-enthusiastic sons.
+        </item>
+        <item>A 14-year-old receives ghost powers and uses them to save the world</item>
+        <item>A parody of reality shows cast with spoofs of several famous types of animated
+            characters.
+        </item>
+        <item>A boy and his beloved imaginary friend are able to stay together at an orphanage of
+            sorts for imaginary friends that children have outgrown to be adopted by new children.
+        </item>
+        <item>Two teenage slackers find a mecha from the future that had been lying in a New Jersey
+            junkyard for nearly 60 years and make modifications much to the dismay of the robot\'s
+            attractive creator.
+        </item>
+        <item>The random escapades of Stan Smith, a conservative CIA agent dealing with family life
+            and keeping America safe, all in the most absurd way possible.
+        </item>
+        <item>In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous
+            mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.
+        </item>
+        <item>Based on the comic strip, Huey and Riley move away from the city and out to the
+            suburbs with their irascible grandfather. Biting socio-political commentary ensues.
+        </item>
+        <item>From creators Seth Green and Matthew Senreich, \'Robot Chicken\' is stop-motion
+            animation with a demented twist.
+        </item>
+        <item>Tom and jerry returns with vengeance in this new show.</item>
+        <item>Animated series about an Atlanta performing arts school grad who ditches a successful
+            music career to become a music teacher.
+        </item>
+        <item>A philandering billionaire playboy who moonlights as the superhero, Awesome X, faces
+            against his greatest adversary, Killface, but finds balancing his business and superhero
+            lives difficult.
+        </item>
+        <item>The epic and over-the-top adventures of Dethklok, the world\'s most successful death
+            metal band.
+        </item>
+        <item>In Marzipan City, the young, excitable food-loving Chowder is the apprentice of Mung
+            Daal, a very old chef who runs a catering company with his wife, Truffles and assistant,
+            Shnitzel.
+        </item>
+        <item>An updated animated series centering on the Caped Crusader himself as he partners and
+            deals with his fellow superheroes in the DC Comics universe.
+        </item>
+        <item>15-year-old Ben Tennyson must utilize the Omnitrix yet again in order to locate his
+            missing Grandpa Max, accompanied by his cousin Gwen and former enemy Kevin 11.
+        </item>
+        <item>Phineas and Ferb invent, scheme and stay one step ahead of their bratty sister.
+            Meanwhile, their pet platypus plots against evil Dr. Doofenshmirtz.
+        </item>
+        <item>The Grand Army of the Republic, led by Yoda, Mace Windu, Obi-Wan Kenobi, Anakin
+            Skywalker and other Jedi Knights, fights the New Droid Army of the Separatists.
+        </item>
+        <item>After an explosion at the school, the X-Men went their seperate ways. But they must
+            unite once again under the leadership of Wolverine to prevent an inevitable war while
+            also dealing with present problems.
+        </item>
+        <item>Covert black ops and espionage take a back seat to zany personalities and
+            relationships between secret agents and drones.
+        </item>
+
+    </array>
+    <array name="twenty_zero_img">
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNDVkMzZmMjgtMzM0Yi00ZjBmLWE2MzgtYzBiYjEyNmYzODIzXkEyXkFqcGdeQXVyNzI1MDI1NDU@._V1._SY209_CR11,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyMjkyOTcwODheQTJeQWpwZ15BbWU3MDg2MjExMzE@._V1._SY209_CR6,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BZmQ5NGFiNWEtMmMyMC00MDdiLTg4YjktOGY5Yzc2MDUxMTE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1._SY209_CR1,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNTA1YzNiNWUtNGQ5ZS00NTY1LTllNWItZTdhYzBlMGNlNTU2L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTI3MzYwOTMyMl5BMl5BanBnXkFtZTcwODc2MzcyMQ@@._V1._SY209_CR4,0,140,209_.jpg
+
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTQwODYxNzUxMl5BMl5BanBnXkFtZTcwMTYwMTEzMQ@@._V1._SY209_CR78,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BYTVkMWY0ZTItMTg1Yy00ZmQ5LTgwYzktYTdkODdmZGJiOGUwXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTM3MTc3OTc0NF5BMl5BanBnXkFtZTcwOTQ0OTM1MQ@@._V1._CR34,0,295,440._SY209_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjAwMDQ3OTg4MV5BMl5BanBnXkFtZTcwMzY5NDAwMQ@@._V1._CR1,24,336,450._SY209_CR8,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BYzcxYjk4YTgtMGQxMC00M2UyLTkwMDktYjA1NzJhZGJlNzA3XkEyXkFqcGdeQXVyNzA5NjUyNjM@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjE2NTI5ODQ4NF5BMl5BanBnXkFtZTcwNzU3NDYyMQ@@._V1._SY209_CR17,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxMjYzMDg3OV5BMl5BanBnXkFtZTcwNjA5MzI0MQ@@._V1._SY209_CR3,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BZWQ2MDNiNTItYmM3ZS00MmI4LWFlMDQtOGVhYzlhZmZkNzI0L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNzQyYTFmYTAtMWY4NC00ZGU0LTg1MzUtODMxYmZlY2UwNGQ4XkEyXkFqcGdeQXVyMjgyMDk1MzY@._V1._SY209_CR3,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNDY2YjgyZGMtMWY2Zi00ZmQ5LTg0YjgtNjYyMGNkMTMzNWU1XkEyXkFqcGdeQXVyMzM4NjcxOTc@._V1._SY209_CR1,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BOGM1MjM1MjItZjFiZi00NjNlLTg3ZGItYjc1NmFmYjU1MDdmXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR1,0,140,209_.jpg
+
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BZDZhNWFmODgtNzBmOC00YTUwLTk1MmItNDJhMDA5YjkzNzlmL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BZjZhMjZhMzEtNzMwYi00NjA5LTg5ZTctZDYyOTczNWUxY2VkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1._SY209_CR14,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BYzcxYjk4YTgtMGQxMC00M2UyLTkwMDktYjA1NzJhZGJlNzA3XkEyXkFqcGdeQXVyNzA5NjUyNjM@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMDMxZGJlYzktOTNhMy00YjI3LTkwODktOTczZGFlZDI0ZDIzL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjE0ODc0MDc@._V1._SY209_CR1,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjA1MzgzMzA4Nl5BMl5BanBnXkFtZTcwMDQ4NzIzMQ@@._V1._SY209_CR3,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BODFiZDAwNTEtMDg5OS00NmNlLTgyMGMtNzdkZjEyNjQ2MDc5XkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1._SY209_CR1,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ5Mzg3Njc5MV5BMl5BanBnXkFtZTYwNjQxMzM5._V1._SY209_CR1,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BYzRjNWY0OTQtOTAxYS00ZmJhLWIyNjQtMzg4Zjc2ZDVmMzg5XkEyXkFqcGdeQXVyNjExODE1MDc@._V1._SY209_CR5,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTc5NTc1MTY2MV5BMl5BanBnXkFtZTgwMDc4NDgwMzE@._V1._SY209_CR69,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTk1MDgxNDE5Nl5BMl5BanBnXkFtZTcwODM0MzAwMQ@@._V1._CR16,139,226,288._SY209_CR12,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMDk3ODcxOWMtZmFmOC00MDMzLWExNTctYmM4MmQyNjNiOTYzXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR8,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyMDk4NTIyOF5BMl5BanBnXkFtZTcwMTgzMDYyMQ@@._V1._SY209_CR2,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTc4ODU2NzExMF5BMl5BanBnXkFtZTcwOTc3MjIzMQ@@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNDY2YjgyZGMtMWY2Zi00ZmQ5LTg0YjgtNjYyMGNkMTMzNWU1XkEyXkFqcGdeQXVyMzM4NjcxOTc@._V1._SY209_CR1,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMzhmNTg1NWYtNTUzNy00NWI0LTk1ZmYtODA1YTE0NGNkYWZkXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR6,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTI4MTI1NjA1Nl5BMl5BanBnXkFtZTcwMzc5ODAwMw@@._V1._SY209_CR14,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BM2U0OTQ5MzYtYWE5Ni00MmMyLTk4MWUtMjRiODZjMWQ2MzU4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMGU5MWQ3ZWItMzEzMy00NjljLWFjYzUtMGMxNTk2YWEwMzMyXkEyXkFqcGdeQXVyNjExODE1MDc@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BN2NkODVhNDYtNzJhYy00ZTY5LWJkNTktN2EzOWJkYWI5MjdmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTEwMTkwOTI@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BYmE2ZmMzZjEtOTAyOS00NWNhLTgzOWYtMzFkNmJhYzBiN2VhXkEyXkFqcGdeQXVyMzM4NjcxOTc@._V1._SY209_CR6,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BYjdlYjM2NGItZTY0Mi00NmVjLWIwMTAtNTBiZTg4NTc3NGJjXkEyXkFqcGdeQXVyNjExODE1MDc@._V1._SY209_CR60,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNDRkOWIyOTUtMjg5YS00OTJjLTgwNGYtMjgxMTA0NWQ2NGI3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTM3MTc3OTc0NF5BMl5BanBnXkFtZTcwOTQ0OTM1MQ@@._V1._CR34,0,295,440._SY209_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNDM5MDExMDc2OF5BMl5BanBnXkFtZTcwMjA1ODg2MQ@@._V1._CR55,40,286,408._SY209_CR3,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BYTVkMWY0ZTItMTg1Yy00ZmQ5LTgwYzktYTdkODdmZGJiOGUwXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNzE3NTAwMjI2OV5BMl5BanBnXkFtZTgwNzczODA2NzE@._V1._SY209_CR69,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMzFiZGFlMjYtOGU1ZS00YmUyLWIwZDctNTA5MTVjNTRlZTNmXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTVhMmEwZmUtNjRlNC00YzRmLWIwY2MtZjRiZDcyMDY5NmQzXkEyXkFqcGdeQXVyNjExODE1MDc@._V1._SY209_CR9,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BZjVkMTRlZDktNzFkYi00ZmRkLTkxZmQtOTZiZTg0NzJhOWE3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BOGVlNzI1MzQtYTQ5MS00ZTUwLWIyNDEtOWZkMTZlZDM4Y2QyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR3,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTI0NjM1MTE2M15BMl5BanBnXkFtZTcwOTE1MjE0Mg@@._V1._SY209_CR100,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMjA0ODY5MDg4Ml5BMl5BanBnXkFtZTcwNTg4NjA4MQ@@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTc1NjcxNzg4MF5BMl5BanBnXkFtZTgwOTMzNzgyMDE@._V1._SY209_CR2,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BZGNhYmVlNDAtYmYyMi00ZjI0LTg2MDEtNzhkMTdlMmRhYTI5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1._SY209_CR5,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BNzk4Nzg3NjMyMV5BMl5BanBnXkFtZTcwMjk3MjU0Mg@@._V1._SY209_CR4,0,140,209_.jpg
+        </item>
+        <item>
+            https://images-na.ssl-images-amazon.com/images/M/MV5BMTg3NTMwMzY2OF5BMl5BanBnXkFtZTgwMDcxMjQ0NDE@._V1._SX140_CR0,0,140,209_.jpg
+        </item>
+
+    </array>
+
+
+    <array name="youtube_comedy_img">
+
+        <item>
+            https://yt3.ggpht.com/-fI8rhpnPZ-E/AAAAAAAAAAI/AAAAAAAAAAA/wU6ooQc6ej0/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/7dMk3r2TlxkUfUn6QpweeP4YShILGmwFnvDl2loxswtS1LbNXb97OBMKG-XXmwJ12i2G6fwBFA=s900-nd-c-c0xffffffff-rj-k-no
+        </item>
+        <item>
+            https://yt3.ggpht.com/-kMjCsHXo-UM/AAAAAAAAAAI/AAAAAAAAAAA/U6u2lL6qnXo/s900-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-CoKCpORRKLc/AAAAAAAAAAI/AAAAAAAAAAA/ACeetamvfNM/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-oQwTJp4UzGA/AAAAAAAAAAI/AAAAAAAAAAA/YZbaogSeXeQ/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-IZFLh6SiWKk/AAAAAAAAAAI/AAAAAAAAAAA/s6D6UnyUBoA/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-rJq9gk1QIis/AAAAAAAAAAI/AAAAAAAAAAA/Kx4wkvKOfxY/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+
+        <item>
+            https://yt3.ggpht.com/-YzKSIC-EC9w/AAAAAAAAAAI/AAAAAAAAAAA/_2b-6kHxN-8/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-c-S0lZw_QvQ/AAAAAAAAAAI/AAAAAAAAAAA/wi6OHn4T53M/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-YmAo2aa3-nM/AAAAAAAAAAI/AAAAAAAAAAA/WqpO7AUlJUM/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-HShIGYOHzy4/AAAAAAAAAAI/AAAAAAAAAAA/yrBGK7w4D90/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-1a-7t-YPmsY/AAAAAAAAAAI/AAAAAAAAAAA/MUJ12CnfwlA/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-JB0GVidu32g/AAAAAAAAAAI/AAAAAAAAAAA/ai3rVPRDYDw/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-AufHIQ3sLmM/AAAAAAAAAAI/AAAAAAAAAAA/hPFE6k06-Ls/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-hPeBepXIji0/AAAAAAAAAAI/AAAAAAAAAAA/JbMIcHEtXos/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+
+        <item>
+            https://yt3.ggpht.com/-nutWQfRti6I/AAAAAAAAAAI/AAAAAAAAAAA/awhhhcHZLdc/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-GFXXacaJlTw/AAAAAAAAAAI/AAAAAAAAAAA/4eOmd-N9ySU/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-mg1OKiIdJHU/AAAAAAAAAAI/AAAAAAAAAAA/SYWXAcsn_t4/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-sHpcIUOw-YU/AAAAAAAAAAI/AAAAAAAAAAA/_F4e0B7Oq68/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-FFNiOWizwRA/AAAAAAAAAAI/AAAAAAAAAAA/q9vBcf1chqk/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-iJJcDIkIjL0/AAAAAAAAAAI/AAAAAAAAAAA/Rf6VBJ2D-MA/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-UsqednQXiuQ/AAAAAAAAAAI/AAAAAAAAAAA/HHn1lQdSH8I/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-5ZK_31nb5s8/AAAAAAAAAAI/AAAAAAAAAAA/czPsZ3UhQ-Q/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/--RGOA2tk6EU/AAAAAAAAAAI/AAAAAAAAAAA/4Wv2pK5ZAn0/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-yJUqijvMwFw/AAAAAAAAAAI/AAAAAAAAAAA/nkKaeCRjxY8/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-nd8LyC3NoE4/AAAAAAAAAAI/AAAAAAAAAAA/-ZE_L6u0Q1Y/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+
+    </array>
+    <array name="youtube_comedy_title">
+
+        <item>CollegeHumor</item>
+        <item>Impractical Jokers</item>
+        <item>ScoopWhoop</item>
+        <item>Break</item>
+        <item>Whatever</item>
+        <item>Whatever2ND</item>
+        <item>PewDiePie</item>
+        <item>How it Should Have Ended</item>
+        <item>The Warp Zone</item>
+        <item>Screen Junkies</item>
+        <item>EpicVoiceGuy</item>
+        <item>YouTubeFanFest</item>
+        <item>TheOdd1sOut</item>
+        <item>Smosh</item>
+        <item>Shut Up Cartoons</item>
+        <item>TheDominicShow</item>
+        <item>Julien Bam</item>
+        <item>BeingIndian</item>
+        <item>Niga Higa</item>
+        <item>RiceGum</item>
+        <item>BuzzFeedVideo</item>
+        <item>FBE</item>
+        <item>
+            MatthewSantoro
+        </item>
+        <item>Rob Dyke</item>
+        <item>prankvsprank</item>
+        <item>ExplosmEntertainment</item>
+    </array>
+    <array name="youtube_comedy_description">
+        <item>Original and funny videos from CollegeHumor.com, one of the most popular comedy sites
+            on the web. Enjoy CH\'s award-winning sketches, animations, music videos and web series
+        </item>
+        <item>WARNING, The following program contains scenes of graphic stupidity among four
+            lifelong friends who compete to embarrass each other.
+        </item>
+        <item>ScoopWhoop is an internet media and news company from India. The company creates and
+            curates India specific stories.
+        </item>
+        <item>Have a great fail, prank, or win? Send us your video and get paid to be featured in
+            our weekly compilation!
+        </item>
+        <item>whatever
+            Pranks, social experiments, randomness.
+            Featuring Brian and friends :).
+        </item>
+        <item>whatever extras, fails, reveals, outtakes, mini pranks, and more!</item>
+        <item>I make videos.</item>
+        <item>A place for animated parody alternate endings to major motion pictures. We make
+            cartoons as fast as we can and hopefully we can make you laugh along the way.
+        </item>
+        <item>The Warp Zone is a nerd sketch comedy, gaming, and music video channel brought to you
+            by five lifelong friends
+        </item>
+        <item>In a world full of movies and television, only one channel is keeping them honest
+            every Tuesday, Thursday, and Saturday - SCREENJUNKIES!
+        </item>
+        <item>FUNNY STUFF WITH VOICES: IMPRESSIONS, PARODIES, REACTIONS, REVIEWS &amp; LIVE
+            MOVIE/TV/GAMING STREAMS!
+        </item>
+        <item>YouTube FanFest brings YouTube\'s biggest stars from around the world together on
+            stage
+            for exciting live shows.
+        </item>
+        <item>
+            I\'ve created comics for the internet for the past 4 years and videos for the past 2.
+        </item>
+        <item>Smosh is an American web-based sketch comedy duo consisting of Ian Andrew Hecox and
+            Daniel Anthony Padilla
+        </item>
+        <item>Because the real world couldn\'t handle this much awesome, we at Smosh decided to make
+            some cartoons. So Shut Up! and watch them. And then, watch them again because they are
+            much funnier when viewed a second time.
+        </item>
+        <item>So I Thought I Can Dance, America\'s Most Asian Crew, and C.E.O. of a Multi-Dollar
+            Company
+        </item>
+        <item>Mein Name ist Bam. Julien Bam!</item>
+        <item>The one stop shop for all things Indian. Presenting to you India at its quirkiest
+            best. Subscribe for your daily dose of humor and much more. Being Indian - The fastest
+            growing Indian YouTube channel in India.
+        </item>
+        <item>The 16th most subscribed youtuber in the world</item>
+        <item>Subscribe if you\'re NEW! YOU WONT REGRET IT</item>
+        <item>BuzzFeed Motion Picture’s flagship channel. Sometimes funny, sometimes serious, always
+            shareable. New videos posted daily!
+        </item>
+        <item>Fine Brothers Entertainment brings you the stuff you want to talk more about, from our
+            award-winning REACT series, to shows across scripted, unscripted, animation,
+            interactive, sketch comedy
+        </item>
+        <item>The most incredible, shocking, scary, mysterious, funny, weird or mind-blowing
+            facts!
+        </item>
+        <item>My name is Rob Dyke and I work every day to bring my audience a unique new experience!
+            My channel is different because it contains both COMEDY and TRAGEDY!
+        </item>
+        <item>Crazy Pranks. Pranking Couple. Public Prank.</item>
+        <item>ExplosmEntertainment makes Cyanide &amp; Happiness animations and comics, as well as
+            the Joking Hazard Card game
+        </item>
+
+    </array>
+
+
+    <array name="vines_title">
+        <item>Zach King</item>
+        <item>King Bach</item>
+        <item>Bhuvan Bam</item>
+        <item>Rudy Mancuso</item>
+        <item>Ashish Chanchlani</item>
+        <item>CurtisLepore</item>
+        <item>Nash Grier</item>
+        <item>Thomas Sanders</item>
+        <item>Matthew Espinosa</item>
+        <item>Anwar Jibawi</item>
+        <item>Hannah Stocking</item>
+        <item>Alx James</item>
+        <item>Inanna Sarkis</item>
+        <item>Harsh Beniwal</item>
+        <item>Christian Delgrosso</item>
+        <item>Lele Pons</item>
+        <item>Liza Koshy</item>
+        <item>Cameron Dallas</item>
+        <item>Jake Paul</item>
+        <item>Amanda Cerny</item>
+        <item>Juanpa Zurita</item>
+        <item>Kc James</item>
+        <item>Brittany Furlan</item>
+        <item>Eric Dunn</item>
+        <item>Logan Paul</item>
+        <item>Lance Stewart</item>
+        <item>Brent Rivera</item>
+        <item>Destorm Power</item>
+        <item>David Lopez</item>
+        <item>TheBestVines</item>
+        <item>AlotVines</item>
+        <item>VinesSquad</item>
+        <item>Best Viners</item>
+        <item>CoVines</item>
+        <item>Life Awesome</item>
+        <item>Danny Gonzalez</item>
+        <item>Darius Benson</item>
+        <item>Eh Bee Family</item>
+        <item>Lenarr young</item>
+        <item>MeechOnMars</item>
+    </array>
+
+    <array name="vines_desc">
+        <item>Internet star known as FinalCutKing who has amassed over 1.2 million subscribers on
+            YouTube. He was extremely popular on Vine.
+        </item>
+        <item>Andrew B. Bachelor, better known as KingBach, is one of the most popular Viners in the
+            world. The Canadian-born Vine star grew up in Florida, and was one of the NCAA\'s best
+            high jumpers.
+        </item>
+        <item>BB Ki Vines is about BB and some funny instances happening around him &amp; his
+            family.
+        </item>
+        <item>Web star who initially gained fame on Vine, finishing with over 10 million followers
+            on his channel
+        </item>
+        <item>He garnered popularity for his original comedic vignettes and parodies, as well as his
+            own personal vlogs.
+        </item>
+        <item>Curtis Lepore is an American actor, musician and internet celebrity known for his Vine
+            videos
+        </item>
+        <item>Internet star who became known for his comedic sketch videos on YouTube and Vine.
+        </item>
+        <item>First became famous on Vine where he was known as Foster Dawg. He was the winner of
+            the 2014 Favorite Vine Celebrity Contest.
+        </item>
+        <item>Social media phenomenon across YouTube, Instagram, and Twitter. He first gained a web
+            following on the popular app Vine and as a member of the social media group Magcon Boys
+        </item>
+        <item>Known for his comedic video content, he first gained fame on Vine, ranking in the Top
+            100 most followed Viners in 2015
+        </item>
+        <item>She first gained recognition on Vine, where she earned more than 950,000 followers.
+        </item>
+        <item>Vine video phenomenon who earned more than 8 million followers to his channel. He then
+            transitioned to YouTube
+        </item>
+        <item>Social media personality, actress, and popular YouTuber who has also worked as a
+            model. She wrote and directed a short called Aura. She has over 950,000 subscribers on
+            her YouTube channel.
+        </item>
+        <item>Video content creator on the platforms Instagram, YouTube and Facebook whose comedic
+            talent is evident across the three platforms.
+        </item>
+        <item>Internet personality who first gained fame on Vine, earning over 7 million followers
+            while collaborating with fellow Vine stars including Cameron Dallas and Matthew Espinosa
+        </item>
+        <item>Internet phenomenon who became the first Viner to accumulate one billion loops. She
+            eventually amassed over 8 billion loops.
+        </item>
+        <item>11 million Instagram followers on her lizakoshy account. She was named Breakout
+            Creator at the 2016 Streamy Awards.
+        </item>
+        <item>Social media star who first became known for his Instagram pictures and comedic videos
+            on Vine.
+        </item>
+        <item>Became enormously popular on the 6-second video app Vine, with over 5 million
+            followers. He earned a Shorty Award nomination in the category of Vineographer.
+        </item>
+        <item>She has collaborated on YouTube videos with fellow social stars such as King Bach,
+            Logan Paul and Juanpa Zurita.
+        </item>
+        <item>He became extremely popular on Instagram with more than 9 million fans. He is also
+            popular on Vine with over 2 million followers on the app.
+        </item>
+        <item>Featuring vines from Vine App, comedy shorts &amp; other crazy things you will want to
+            see.
+        </item>
+        <item>Brittany Furlan is Vine\'s most popular female star. She\'s since landed a deal for a
+            sketch comedy show being produced by Seth Green.
+        </item>
+        <item>He first started making Vine videos in March of 2013, accumulating a massive amount of
+            followers in a short amount of time.
+        </item>
+        <item>He collaborated on videos with several fellow Vine stars, including Matthew Espinosa
+            and Christian DelGrosso.
+        </item>
+        <item>One of his first enormously popular Vines, called "It's My Money and I Need It Now,"
+            generated over 900,000 likes and 800,000 revines.
+        </item>
+        <item>Social media star across multiple platforms, he is best known on YouTube as
+            MrBrent98
+        </item>
+        <item>Wassup world? Hip Hop, Rap, Comedy, Originality... Just doing it all. Another day
+            another challenge.
+            Here to inspire 1 person at a time
+        </item>
+        <item>Social media superstar who amassed over 6.8 million followers to his Vine channel,
+            where he portrayed the character Juan for his comedic videos
+        </item>
+        <item>The Best Vines. New Funny Vine Compilations from the Top Viners of 2016 including
+            KingBach, Thomas Sanders, Eric Dunn, Amanda Cerny, Anwar Jibawi, David Lopez and more
+        </item>
+        <item>Enjoy and follow the Best Vine Compilations Ever on AlotVines channel.</item>
+        <item>On this channel you will find the latest vines from the best Viners, trending vines,
+            solo vines and monthly vines so please enjoy
+        </item>
+        <item>Top vines compilation of your Best Viners.</item>
+        <item>Compilation of the best viners and funny videos on the internet.</item>
+        <item>Best funny videos; entertaining fails videos, try not to laugh, and much more. We hope
+            that these funny Vine videos will make your day.
+        </item>
+        <item>I\'m Danny! I make comedy sketches, music videos and popular youtube trend parody
+            videos!
+        </item>
+        <item>If you know me from Vine that\'s awesome! If you don\'t know me I\'m just a guy who
+            likes making videos. I do skits and parodies and anything else I can think of.
+        </item>
+        <item>The Eh Bee family are Canadian internet personalities best known for their Vine,
+            YouTube, Instagram and Facebook channels, which have over 15 million combined
+            subscribers and well over two billion total views
+        </item>
+        <item>
+            Video content creator on Instagram, YouTube, and Vine who found the most success on the
+            latter of the networks, earning over 600,000 followers by the time
+        </item>
+        <item>18 Year Old Comedic Actor- Apsiring Writer.
+            Vine Died So Now im Here.... New Videos Every Monday
+        </item>
+    </array>
+
+    <array name="vines_img">
+        <item>
+            https://yt3.ggpht.com/-3efvWfDOxg8/AAAAAAAAAAI/AAAAAAAAAAA/uMg_N2dYF0Y/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-4cERwRrTvcU/AAAAAAAAAAI/AAAAAAAAAAA/xiGGB2LCpaQ/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-V7WGpnvPvtI/AAAAAAAAAAI/AAAAAAAAAAA/BI3_YxcidJs/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+
+        <item>
+            https://yt3.ggpht.com/-iVp0euI7qZ8/AAAAAAAAAAI/AAAAAAAAAAA/E5lGqqCuwO8/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-mhZwaQv475g/AAAAAAAAAAI/AAAAAAAAAAA/kBkYWSVUExE/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-_KJoLa230oM/AAAAAAAAAAI/AAAAAAAAAAA/y8B277pl9aM/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-9yHhfoSAMeg/AAAAAAAAAAI/AAAAAAAAAAA/g3n0a_wbYE0/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-Fg6mZZq9GVc/AAAAAAAAAAI/AAAAAAAAAAA/YStrDaf6CAI/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-YylKMKBNPVc/AAAAAAAAAAI/AAAAAAAAAAA/o93kIft8Hk8/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            http://www.famousbirthdays.com/faces/jibawi-anwar-image.jpg
+        </item>
+        <item>http://www.famousbirthdays.com/headshots/hannah-stocking-3.jpg</item>
+        <item>http://www.famousbirthdays.com/faces/james-alx-image.jpg</item>
+        <item>http://www.famousbirthdays.com/faces/sarkis-inanna-image.jpg</item>
+        <item>
+            https://yt3.ggpht.com/-Hwd5CtL7vl4/AAAAAAAAAAI/AAAAAAAAAAA/gTTRxnhQfpw/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-erJvT0wFGDc/AAAAAAAAAAI/AAAAAAAAAAA/oyGiZgW7Zrc/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-0Mz9QcnX7hc/AAAAAAAAAAI/AAAAAAAAAAA/M6tF9WZUsoQ/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-3C2BQACfU-k/AAAAAAAAAAI/AAAAAAAAAAA/ZrV_eV9UgPU/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-nqMOp3wh9sg/AAAAAAAAAAI/AAAAAAAAAAA/rIJj9lc1F6g/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-_z-GQp7DlaA/AAAAAAAAAAI/AAAAAAAAAAA/hPKjK-3CR5c/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-BRA4bkVJ9zQ/AAAAAAAAAAI/AAAAAAAAAAA/QeLt6H2deyA/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>http://www.famousbirthdays.com/faces/zurita-juanpa-image.jpg</item>
+        <item>
+            https://yt3.ggpht.com/-jc86IqkP4FU/AAAAAAAAAAI/AAAAAAAAAAA/6SvGXSZknyU/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-2tFOK_XmmAY/AAAAAAAAAAI/AAAAAAAAAAA/F0gKxDH41og/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-eNLkJy5i8rU/AAAAAAAAAAI/AAAAAAAAAAA/LLY02IdT6Xg/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-HprOTyOqKto/AAAAAAAAAAI/AAAAAAAAAAA/STB8ZSCm4jk/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-XaqTNWIKU2c/AAAAAAAAAAI/AAAAAAAAAAA/0EZMOH0fy4I/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-KI2__5Obx_Q/AAAAAAAAAAI/AAAAAAAAAAA/ZwoH5cRmhKc/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-9Tp3b79v5qw/AAAAAAAAAAI/AAAAAAAAAAA/1rqtLmDZFvc/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-SqJHbkWIzPg/AAAAAAAAAAI/AAAAAAAAAAA/XtcrEFFECs8/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-U74UOvwJxlE/AAAAAAAAAAI/AAAAAAAAAAA/K2-O03ZSyqw/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-rxDs2YJm1Ss/AAAAAAAAAAI/AAAAAAAAAAA/bEhMabNceZY/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-oPqolA1Mlek/AAAAAAAAAAI/AAAAAAAAAAA/uZOM-Nk3iMQ/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-wPisGdsxmbs/AAAAAAAAAAI/AAAAAAAAAAA/MX58txijSgc/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-kvIl9kGkMPE/AAAAAAAAAAI/AAAAAAAAAAA/-mJUw-yAxVI/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/--WlpRKpcIY4/AAAAAAAAAAI/AAAAAAAAAAA/x4iZT-BFmps/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-QFMXIpRvblk/AAAAAAAAAAI/AAAAAAAAAAA/_RNDjXKZFFA/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-G-ohFyrGe2A/AAAAAAAAAAI/AAAAAAAAAAA/CCTlQnK2_Vw/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-hqxszAw6XZ8/AAAAAAAAAAI/AAAAAAAAAAA/QUqqepevERQ/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-Wep8rBqVC8U/AAAAAAAAAAI/AAAAAAAAAAA/ujugU0ZmL8I/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+        <item>
+            https://yt3.ggpht.com/-7hKA4Jw-KNo/AAAAAAAAAAI/AAAAAAAAAAA/eROA-fFHYf8/s176-c-k-no-mo-rj-c0xffffff/photo.jpg
+        </item>
+    </array>
+    <string name="title_activity_main_slider">MainSlider</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
