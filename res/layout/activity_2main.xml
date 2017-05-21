@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    android:background="#d1d1d1">
+    <!--<EditText android:id="@+id/inputSearch"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:imeOptions="actionSearch"-->
+    <!--android:hint="Search products.."-->
+    <!--android:inputType="textVisiblePassword"/>-->
+
+    <ListView
+        android:id="@+id/custom_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:cacheColorHint="#00000000"
+        android:divider="#d1d1d1"
+        android:visibility="visible"
+        android:dividerHeight="10dp"
+        android:paddingTop="10dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar">
+    </ListView>
+    <com.miguelcatalan.materialsearchview.MaterialSearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        layout="@layout/app_bar_main_slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/activity_main_slider_drawer" />
+
+
+</android.support.v4.widget.DrawerLayout>

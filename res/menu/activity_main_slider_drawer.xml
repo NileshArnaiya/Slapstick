@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_funny"
+
+            android:title="Funny Cartoons" />
+        <item
+            android:id="@+id/nav_cartoons"
+
+            android:title="90's cartoons" />
+        <item
+            android:id="@+id/nav_channels"
+
+            android:title="Popular Channels" />
+        <item
+            android:id="@+id/nav_comedy"
+
+            android:title="Youtube Comedy" />
+        <item
+            android:id="@+id/nav_viners"
+
+            android:title="Vine Artists" />
+
+    </group>
+</menu>
